@@ -18,5 +18,9 @@ class ViewController: UIViewController {
         view.backgroundColor = .red
     }
 
+    func createNewView() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 }
 
